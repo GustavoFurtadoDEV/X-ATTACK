@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE-EDGE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>X-ATTACK</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+          width: 100%;
+          height: 100%;
+        }
+
+        form{
+            width: 300px;
+            margin: 200px auto;
+            text-align: center;
+        }
+
+        input{
+            display: block;
+            margin: 10px auto;
+            width: 250px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h3>Login</h3>
+        <input type="text" placeholder="Nome" id="Login">
+        <input type="text" placeholder="Senha" id="senha">
+        <input type="submit" onclick="logar()">
+
+    </form>
+
+    <script>
+        function logar(){
+            var login = document.getElementById('login').value;
+            var senha = document.getElementById('senha').value;
+            
+            if (login == "Gustavo" && senha == "starpop321/"){
+                alert('Sucesso');
+            }else{
+                alert('Usuário ou senha incorreta");
+            }
+            if (login == "Thiago" && senha == "darklicken"){
+                alert('Sucesso');
+            }else{
+                alert('Usuário ou senha incorreta");
+            }
+            if (login == "Lucas" && senha == "lucaslu11"){
+                alert('Sucesso');
+            }else{
+                alert("Usuário ou senha incorreta");
+            }
+            if (login == "João" && senha == "biganthony"){
+                alert('Sucesso');
+            }else{
+                alert("Usuário ou senha incorreta");
+            }
+            if (login == "Ronny" && senha == "rola"){
+                alert('Sucesso');
+            }else{
+                alert("Usuário ou senha incorreta");
+            }
+            if (login == "Laura" && senha == "961916"){
+                alert('Sucesso');
+            }else{
+                alert('Usuário ou senha incorreta');
+            }
+            if (login == "Wallyson" && senha == "2345523"){
+                alert('Sucesso');
+            }else{
+                alert("Usuário ou senha incorreta");
+            }
+        }
+    </script>
+</body>
+</html>
