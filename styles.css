@@ -1,0 +1,19 @@
+body {
+  font-family: helvetica;
+  font-align: center;
+  color: #000000;
+  background-color: #262626;
+}
+
+nav {
+  display: flex;
+  justify: content;
+}
+
+nav ul {
+  list-style: none;
+}
+
+ul li {
+  margin-right: 65px;
+}
